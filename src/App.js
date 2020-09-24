@@ -33,8 +33,10 @@ function App() {
         </div>
       </div>
       <div className="logo-wrapper">
-        <img className="logo-image" src={require("./assets/nori-logo.png")} />
-        <img className="logo" src={require("./assets/logo.png")} />
+        <div className="img-wrapper">
+          <img className="logo-icon" src={require("./assets/nori-logo.png")} />
+          <img className="logo-text" src={require("./assets/logo.png")} />
+        </div>
       </div>
       <div className="counter-wrapper">
         <div id="flipdown" className="flipdown"></div>
